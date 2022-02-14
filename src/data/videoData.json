@@ -1,0 +1,333 @@
+{
+	"van gogh's world": [
+		{
+			"name": "you're inside van gogh paintings",
+			"link": "https://www.youtube.com/watch?v=BSABGPGO3HE"
+		}
+	],
+	"a boy in his room": [
+		{
+			"name": "Working 🌝☁️",
+			"link": "/assests/video/working.mp4"
+		},
+		{
+			"name": "Working 🌝🌧️",
+			"link": "/assests/video/working_rain.mp4"
+		},
+		{
+			"name": "Working 🌚☁️",
+			"link": "/assests/video/working_night.mp4"
+		},
+		{
+			"name": " Working 🌚🌧️",
+			"link": "/assests/video/working_night_rain.mp4"
+		},
+		{
+			"name": "Reading 🌝☁️",
+			"link": "/assests/video/reading.mp4"
+		},
+		{
+			"name": "Reading 🌝🌧️",
+			"link": "/assests/video/reading_rain.mp4"
+		},
+		{
+			"name": "Reading 🌚☁️",
+			"link": "/assests/video/reading_night.mp4"
+		},
+		{
+			"name": " Reading 🌚🌧️",
+			"link": "/assests/video/reading_night_rain.mp4"
+		}
+	],
+	"lofi": [
+		{
+			"name": "Study girl",
+			"link": "https://www.youtube.com/watch?v=5qap5aO4i9A"
+		},
+		{
+			"name": "Will Smith and his cat",
+			"link": "https://www.youtube.com/watch?v=rA56B4JyTgI"
+		},
+		{
+			"name": "Survie in med school",
+			"link": "https://www.youtube.com/watch?v=uxR_sTZnBtg"
+		},
+		{
+			"name": "LoFi girl is taking a break",
+			"link": "https://www.youtube.com/watch?v=n61ULEU7CO0&"
+		},
+		{
+			"name": "Read some book",
+			"link": "https://www.youtube.com/watch?v=Rc5D2ubqqIY"
+		},
+		{
+			"name": "Deadline in College",
+			"link": "https://www.youtube.com/watch?v=MCkTebktHVc"
+		},
+		{
+			"name": "Sunset",
+			"link": "https://www.youtube.com/watch?v=k74fj7d5vPw"
+		},
+
+		{
+			"name": "Studying in the library",
+			"link": "https://www.youtube.com/watch?v=aBWcNPlfOjs"
+		},
+		{
+			"name": "Study for exam",
+			"link": "https://www.youtube.com/watch?v=QgbGUeyjQ1A"
+		},
+		{
+			"name": "Room Ambience",
+			"link": "https://www.youtube.com/watch?v=LCFy4pcDyyc"
+		},
+		{
+			"name": "Idk what she's wrting",
+			"link": "https://www.youtube.com/watch?v=pjqXFo73BzA"
+		},
+		{
+			"name": "College Guy",
+			"link": "https://www.youtube.com/watch?v=kgx4WGK0oNU"
+		},
+		{
+			"name": "He is on Zoom",
+			"link": "https://www.youtube.com/watch?v=tfBVp0Zi2iE"
+		},
+		{
+			"name": "Write with me",
+			"link": "https://www.youtube.com/watch?v=6JK1Pp0j0nQ"
+		},
+		{
+			"name": "Peace and calmness",
+			"link": "https://www.youtube.com/watch?v=r8hjfGhwK-c"
+		},
+		{
+			"name": "1 A.M outside a bacony",
+			"link": "https://www.youtube.com/watch?v=lTRiuFIWV54"
+		},
+		{
+			"name": "Taiki is sleeping",
+			"link": "https://www.youtube.com/watch?v=HDhR2Yhnvfo"
+		},
+		{
+			"name": "This guy also have a cat",
+			"link": "https://www.youtube.com/watch?v=SigIbCVMTzU"
+		},
+		{
+			"name": "Life suck",
+			"link": "https://www.youtube.com/watch?v=xgirCNccI68"
+		}
+	],
+	"anime": [
+		{
+			"name": "Spirited Away Train Ride",
+			"link": "https://www.youtube.com/watch?v=FPGG5VsQq8M&t=1s"
+		},
+		{
+			"name": "You're on the Spirited Away train",
+			"link": "https://www.youtube.com/watch?v=KPqX3THAeE8"
+		},
+		{
+			"name": "Spirited Away Bath House Ambience",
+			"link": "https://www.youtube.com/watch?v=c96BEq7CRoM"
+		},
+		{
+			"name": "pov ; u get stuck in spirited away",
+			"link": "https://www.youtube.com/watch?v=nwxQ1NyQCyI"
+		},
+		{
+			"name": "Sasuke",
+			"link": "https://www.youtube.com/watch?v=zL1gMeoN8bI"
+		},
+		{
+			"name": "Naruto Vibes",
+			"link": "https://www.youtube.com/watch?v=lFcSZVe7bkY"
+		},
+		{
+			"name": "Shoto",
+			"link": "https://www.youtube.com/watch?v=lFcSZVe7bkY"
+		},
+		{
+			"name": "Naruto lofi",
+			"link": "https://www.youtube.com/watch?v=ZkXOCbrL6hg"
+		},
+		{
+			"name": "Ghibli - Video call",
+			"link": "https://www.youtube.com/watch?v=vpPtCfONDH8"
+		},
+		{
+			"name": "Ghibli - Study",
+			"link": "https://www.youtube.com/watch?v=svsDE4ysPpc"
+		},
+		{
+			"name": "Zoom meeting",
+			"link": "https://www.youtube.com/watch?v=1O-uzHPg2hk"
+		},
+		{
+			"name": "ATTACK ON TITAN",
+			"link": "https://www.youtube.com/watch?v=ToMz85QazAQ"
+		},
+		{
+			"name": "genshin x sasuke x tokyo revengers",
+			"link": "https://www.youtube.com/watch?v=JzefwhfiIAQ"
+		},
+		{
+			"name": "HAIKYUU ",
+			"link": "https://www.youtube.com/watch?v=xJSCNTqqy9U"
+		}
+	],
+	"coding": [
+		{
+			"name": "Code-fi",
+			"link": "https://www.youtube.com/watch?v=f02mOEt11OQ&t=2s"
+		},
+		{
+			"name": "Late night coding",
+			"link": "https://www.youtube.com/watch?v=_ITiwPMUzho"
+		},
+		{
+			"name": "Real coding",
+			"link": "https://www.youtube.com/watch?v=Ghx1rgm8lcE"
+		},
+		{
+			"name": "Relaxing Smooth Background",
+			"link": "https://www.youtube.com/watch?v=CfPxlb8-ZQ0"
+		}
+	],
+	"driving": [
+		{
+			"name": "Driving in Switzerland",
+			"link": "https://www.youtube.com/watch?v=b-WViLMs_4c"
+		},
+		{
+			"name": "Skyscraper District Drive",
+			"link": "https://www.youtube.com/watch?v=QI4_dGvZ5yE"
+		},
+		{
+			"name": " Central London England",
+			"link": "https://www.youtube.com/watch?v=-jJVi-UxL9Y"
+		},
+		{
+			"name": "Ha Noi",
+			"link": "https://www.youtube.com/watch?v=sjLB1QvyzfE"
+		},
+		{
+			"name": "Ha Noi at night",
+			"link": "https://www.youtube.com/watch?v=wM4QQ_7Kh18"
+		},
+		{
+			"name": "Driving through Barcelona",
+			"link": "https://www.youtube.com/watch?v=1n8vY660viQ"
+		}
+	],
+	"walking": [
+		{
+			"name": "Lauterbrunnen Valley",
+			"link": "https://www.youtube.com/watch?v=GReyEtIaMD0"
+		},
+		{
+			"name": "Ho Guom",
+			"link": "https://www.youtube.com/watch?v=gL-9rZcdd3Y"
+		},
+		{
+			"name": "6 A.M Ha Noi",
+			"link": "https://www.youtube.com/watch?v=QvnQngiXdEg"
+		},
+		{
+			"name": "Ho Chi Minh City, District 1",
+			"link": "https://www.youtube.com/watch?v=QvnQngiXdEg"
+		},
+		{
+			"name": "Paris",
+			"link": "https://www.youtube.com/watch?v=-QgaYMckEv4"
+		},
+		{
+			"name": "Japan",
+			"link": "https://www.youtube.com/watch?v=7xltSb3VBJQ"
+		},
+		{
+			"name": "Tokyo is raining",
+			"link": "https://www.youtube.com/watch?v=Et7O5-CzJZg"
+		},
+		{
+			"name": "Shibuya to Shinjuku",
+			"link": "https://www.youtube.com/watch?v=R4B36TMMGp4"
+		},
+		{
+			"name": "Canada",
+			"link": "https://www.youtube.com/watch?v=lh8dNmneVyY"
+		},
+		{
+			"name": "Snowfall in NYC",
+			"link": "https://www.youtube.com/watch?v=F8MN0o6RS9o"
+		},
+		{
+			"name": "London rain",
+			"link": "https://www.youtube.com/watch?v=N787WRdI35A"
+		},
+		{
+			"name": "SEOUL",
+			"link": "https://www.youtube.com/watch?v=sBtYWK817-0"
+		},
+		{
+			"name": "Seoul Hongdae 2AM",
+			"link": "https://www.youtube.com/watch?v=I0B21LjeSUQ"
+		},
+		{
+			"name": "Aokigahara forest",
+			"link": "https://www.youtube.com/watch?v=hqsQY-QXI2U"
+		}
+	],
+	"celebrities": [
+		{
+			"name": "Rosé",
+			"link": "https://www.youtube.com/watch?v=oadMhHMubQ4&t=25s"
+		},
+		{
+			"name": "bts",
+			"link": "https://www.youtube.com/watch?v=SVDooWT60Ho"
+		},
+		{
+			"name": "One Direction",
+			"link": "https://www.youtube.com/watch?v=B9cwUQLOPa4"
+		},
+		{
+			"name": "Loona",
+			"link": "https://www.youtube.com/watch?v=l9UfGptX2WM"
+		},
+		{
+			"name": "Miley Cyrus & Selena",
+			"link": "https://www.youtube.com/watch?v=crWIRn2rIjs"
+		},
+		{
+			"name": "Olivia Rodrigo",
+			"link": "https://www.youtube.com/watch?v=gwS-A9ePsg0"
+		},
+		{
+			"name": "Rhymastic",
+			"link": "https://www.youtube.com/watch?v=6yfMdyULyIg"
+		},
+		{
+			"name": "BIGBANG",
+			"link": "https://www.youtube.com/watch?v=LXEXY3raUWQ&"
+		}
+	],
+	"safety place": [
+		{
+			"name": "library",
+			"link": "https://www.youtube.com/watch?v=YQc4WT0yDH4"
+		},
+		{
+			"name": "COZY Rainy Library with Fireplace",
+			"link": "https://www.youtube.com/watch?v=Jvgx5HHJ0qw&t=20s"
+		},
+		{
+			"name": "Rooftop room",
+			"link": "https://www.youtube.com/watch?v=gvqhjyjiguM"
+		},
+		{
+			"name": "NYC Library",
+			"link": "https://www.youtube.com/watch?v=BQrxsyGTztM"
+		}
+	]
+}

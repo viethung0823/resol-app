@@ -1,0 +1,251 @@
+{
+	"classical": [
+		{
+			"name": "Merry Go Round of Life",
+			"link": "https://www.youtube.com/watch?v=OKEOdKXruF4",
+			"coverArt": "https://i.pinimg.com/236x/eb/36/d7/eb36d7875e37805870ef59e76ffda8f5.jpg",
+			"artis": "Joe Hisaishi",
+			"liked": false
+		},
+		{
+			"name": "a classical playlist 1",
+			"link": "https://www.youtube.com/watch?v=mIYzp5rcTvU",
+			"coverArt": "https://i.pinimg.com/236x/5c/43/67/5c4367d7d4cc6eb2a12b8992b4242886.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "a classical playlist 2",
+			"link": "https://www.youtube.com/watch?v=38LMlhYiQzc",
+			"coverArt": "https://i.pinimg.com/236x/b0/4c/ac/b04cacd04861af3c318be43601dc3615.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "a dark royalty playlist",
+			"link": "https://www.youtube.com/watch?v=Ty81ibUn75E",
+			"coverArt": "https://i.pinimg.com/236x/3f/75/9c/3f759cc0a82e35f6afa6c56b012c29fe.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "a light academia playlist",
+			"link": "https://www.youtube.com/watch?v=d5R-bv9MvQU",
+			"coverArt": "https://i.pinimg.com/236x/5c/a3/81/5ca3813ab342655e52bfdce161c5d1ed.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "a dark academia playlist",
+			"link": "https://www.youtube.com/watch?v=InTeCxpsRVs",
+			"coverArt": "https://i.pinimg.com/236x/5c/a3/81/5ca3813ab342655e52bfdce161c5d1ed.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "19th century villain",
+			"link": "https://www.youtube.com/watch?v=uMCSdgkdOJc",
+			"coverArt": "https://i.pinimg.com/236x/ec/6a/37/ec6a374cddc90acb861cd1e6fc406eb4.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "scheming against your enemies",
+			"link": "https://www.youtube.com/watch?v=p7dqmROKGIo",
+			"coverArt": "https://i.pinimg.com/236x/76/e8/8b/76e88be1cd312d3c287b0872d4dbd7c2.jpg",
+			"artis": "Various artists",
+			"liked": false
+		}
+	],
+	"feel the warmth": [
+		{
+			"name": "playlist 1",
+			"link": "https://www.youtube.com/watch?v=HTkElqjKT14",
+			"coverArt": "https://i.pinimg.com/236x/df/57/d6/df57d617e2a2945f033e18f2feefca78.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "playlist 2",
+			"link": "https://www.youtube.com/watch?v=Mob13VbkuE8",
+			"coverArt": "https://i.pinimg.com/236x/93/f4/32/93f432c89b9f1a1ab8f67ccae40d97ba.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "playlist 3",
+			"link": "https://www.youtube.com/watch?v=NweLdfOidsg",
+			"coverArt": "https://i.pinimg.com/236x/43/e6/be/43e6be0ecad8cf3e68cf244c02878684.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "playlist 3",
+			"link": "https://www.youtube.com/watch?v=cmSpwcarAC4",
+			"coverArt": "https://i.pinimg.com/236x/39/23/6e/39236ec94019a86ebcf2c30586a4e98a.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "playlist 4",
+			"link": "https://www.youtube.com/watch?v=hYrxkd_7CCw",
+			"coverArt": "https://i.pinimg.com/236x/cc/94/39/cc943965bf9a3cca3d1d4007b101023a.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "relax after work",
+			"link": "https://www.youtube.com/watch?v=yJoixBLjWdI",
+			"coverArt": "https://i.pinimg.com/236x/b9/ba/1b/b9ba1bdf36b36669560ce79288287726.jpg",
+			"artis": "Various artists",
+			"liked": false
+		},
+		{
+			"name": "you may want to start your day w this",
+			"link": "https://www.youtube.com/watch?v=YniCNsMaGUo",
+			"coverArt": "https://i.pinimg.com/236x/b6/0a/7b/b60a7bf210f785629663871b4031553f.jpg",
+			"artis": "Various artists",
+			"liked": false
+		}
+	],
+	"piano": [
+		{
+			"name": "CHÚNG TA CỦA HIỆN TẠI",
+			"link": "https://www.youtube.com/watch?v=Jkvn7npQlbE",
+			"coverArt": "https://i.pinimg.com/236x/36/b6/98/36b6989d2e30f37e6b236f26a7771a4c.jpg",
+			"artis": "AN COONG || cover",
+			"liked": false
+		},
+		{
+			"name": "Only",
+			"link": "https://www.youtube.com/watch?v=a1NEJYPp-K8",
+			"coverArt": "https://i.pinimg.com/236x/46/39/2f/46392fe7c8270170152db66cbc7dfc8f.jpg",
+			"artis": "Lee Hi",
+			"liked": false
+		},
+		{
+			"name": "Piano VPOP",
+			"link": "https://www.youtube.com/watch?v=NjayfRtJGnc",
+			"coverArt": "https://i.pinimg.com/236x/a4/d2/23/a4d22329bd1c545b61b6cd5c63e57977.jpg",
+			"artis": "AN COONG || cover",
+			"liked": false
+		},
+		{
+			"name": "Piano KPOP",
+			"link": "https://www.youtube.com/watch?v=ieoG8yTKv8o",
+			"coverArt": "https://i.pinimg.com/236x/ae/cf/e5/aecfe5f4263cf6bc62d9912c5b1bee14.jpg",
+			"artis": "Unknow",
+			"liked": false
+		},
+		{
+			"name": "Piano CPOP",
+			"link": "https://www.youtube.com/watch?v=jAEjfiOH-3w",
+			"coverArt": "https://i.pinimg.com/236x/50/ff/92/50ff92f77cf018f624c3c55d5be38b29.jpg",
+			"artis": "AN COONG || cover",
+			"liked": false
+		},
+		{
+			"name": "Piano US UK",
+			"link": "https://www.youtube.com/watch?v=wCxh0dhJjfM",
+			"coverArt": "https://i.pinimg.com/236x/74/44/dd/7444dd5cfdeff595e2f76038757da93f.jpg",
+			"artis": "Unknow",
+			"liked": false
+		}
+	],
+	"saxophone": [
+		{
+			"name": "playlist 1",
+			"link": "https://www.youtube.com/watch?v=HGMO83sHFCU",
+			"coverArt": "https://i.pinimg.com/736x/07/ac/fd/07acfdcfd9c3698c730f10aca7cc60e0.jpg",
+			"artis": "Bảo Anh Sax",
+			"liked": false
+		},
+		{
+			"name": "playlist 2",
+			"link": "https://www.youtube.com/watch?v=QfD2kH6f3R8",
+			"coverArt": "https://i.pinimg.com/564x/7b/90/04/7b900485d150ffe3c32a7624bad566c5.jpg",
+			"artis": "Bảo Anh Sax",
+			"liked": false
+		},
+		{
+			"name": "playlist 3",
+			"link": "https://www.youtube.com/watch?v=c37hZqn19Zc",
+			"coverArt": "https://i.pinimg.com/236x/44/d5/cb/44d5cb1ee2fba8ec55c6a3b2b4694fa2.jpg",
+			"artis": "Bảo Anh Sax",
+			"liked": false
+		}
+	],
+	"vpop": [
+		{
+			"name": "Vì đống chén kia đang chờ",
+			"link": "https://www.youtube.com/watch?v=IW3gWh_Niw4",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-17/img-1.jpg",
+			"artis": "Văn ft Poker x JayD",
+			"liked": false
+		},
+		{
+			"name": "Hết cách ly",
+			"link": "https://www.youtube.com/watch?v=0m-lfv6hs38",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-20/img-1.jpg",
+			"artis": "DUY",
+			"liked": false
+		},
+		{
+			"name": "Sending to you",
+			"link": "https://www.youtube.com/watch?v=XfI4TDqn6Ec",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-18/img-1.jpg",
+			"artis": "Sanh Ngân",
+			"liked": false
+		},
+		{
+			"name": "Váy hoa nhí",
+			"link": "https://www.youtube.com/watch?v=l0OGoMqgS2U",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "Hoàng Minh Châu",
+			"liked": false
+		},
+		{
+			"name": "Hà Nội có phải là anh",
+			"link": "https://www.youtube.com/watch?v=3G8P3nj3sK0",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "CHEE",
+			"liked": false
+		},
+		{
+			"name": "Nghe lúc nhớ anh",
+			"link": "https://www.youtube.com/watch?v=Md3WMbDXMzw",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "Naa",
+			"liked": false
+		},
+		{
+			"name": "Cách Xa Một Màn Hình",
+			"link": "https://www.youtube.com/watch?v=CXPMOt9_8Sc",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": " Mít ft Carterpham, ducpham",
+			"liked": false
+		},
+		{
+			"name": "Ngày em đến",
+			"link": "https://www.youtube.com/watch?v=_UKreKlbVqg",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "Súp lơ ft. Phly",
+			"liked": false
+		},
+		{
+			"name": "Ngày sắp xa ",
+			"link": "https://www.youtube.com/watch?v=0La1TxLAKBk",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "Salmon",
+			"liked": false
+		},
+		{
+			"name": "Đi bên em",
+			"link": "https://www.youtube.com/watch?v=C0X96SFi5lw",
+			"coverArt": "https://caiden.vn/images/details/love-gallery-9/img-1.jpg",
+			"artis": "Trịnh Thanh Vân x Lưu Tuấn Kiệt",
+			"liked": false
+		}
+	],
+	"liked": []
+}

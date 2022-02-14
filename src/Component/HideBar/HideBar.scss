@@ -1,0 +1,12 @@
+.HideBar {
+	position: absolute;
+	left: 50%;
+	bottom: 6px;
+	transform: translateX(-50%);
+	width: 30%;
+	height: 5px;
+	background-color: var(--clr-primary);
+	transition: 0.3s ease;
+	border-radius: 100px;
+	cursor: pointer;
+}

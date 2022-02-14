@@ -1,0 +1,99 @@
+.TopMenu {
+	position: absolute;
+	top: var(--topLayer-padding);
+	padding: 0 var(--topLayer-padding);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__heading {
+		display: inline-block;
+		font-size: 32px;
+		text-transform: uppercase;
+		color: var(--clr-primary);
+		user-select: none;
+		line-height: 1;
+		cursor: pointer;
+		font-family: "Amatic SC", cursive;
+	}
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__showTaskBar {
+		& > ion-icon {
+			font-size: 32px;
+			color: var(--clr-primary);
+		}
+	}
+
+	&__darkmode {
+		padding: 6px 8px;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		background-color: var(--clr-toggle);
+		backdrop-filter: blur(12px);
+		border-radius: 100px;
+		width: 64px;
+		cursor: pointer;
+		transition: 0.3s ease;
+
+		&.light {
+			filter: drop-shadow(0px 0px 6px white);
+		}
+
+		&__moon {
+			transition: 0.3s ease;
+			font-size: 20px;
+			color: #000;
+			visibility: visible;
+		}
+
+		&__sun {
+			transition: 0.3s ease;
+			font-size: 20px;
+			color: #fff;
+			visibility: visible;
+			filter: drop-shadow(0px 0px 6px white);
+		}
+	}
+}
+
+@keyframes goRight {
+	from {
+		transform: translateX(0);
+		visibility: visible;
+		opacity: 1;
+	}
+	to {
+		transform: translateX(30px);
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+@keyframes goLeft {
+	from {
+		transform: translateX(0);
+		visibility: visible;
+		opacity: 1;
+	}
+	to {
+		transform: translateX(-30px);
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+.goRight {
+	animation: goRight 0.1s ease-in 1 forwards;
+}
+
+.goLeft {
+	animation: goLeft 0.1s ease-in 1 forwards;
+}

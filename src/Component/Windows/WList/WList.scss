@@ -1,0 +1,80 @@
+.Wlist {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 80px;
+	left: 720px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: rgb(0 0 0) 0px 0px 12px;
+	transition: background-color 0.3s ease;
+	background-color: var(--clr-background);
+	backdrop-filter: blur(12px);
+	width: 480px;
+	height: 420px;
+	animation: openWindows 0.3s ease-out 1;
+	padding: 6px 12px;
+
+	&__header {
+		position: relative;
+
+		&__name {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			color: var(--clr-song);
+			transition: 0.3s ease;
+			font-size: 16px;
+			font-weight: normal;
+			user-select: none;
+			-webkit-user-drag: none;
+			-khtml-user-drag: none;
+			-moz-user-drag: none;
+			-o-user-drag: none;
+		}
+	}
+
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+		align-items: center;
+		margin-top: 16px;
+		border-radius: 12px;
+		overflow: hidden scroll;
+
+		&::-webkit-scrollbar {
+			width: 0;
+		}
+
+		&__item {
+			position: relative;
+			width: 222px;
+			height: 116px;
+			filter: brightness(0.5);
+			background-size: contain;
+			border-radius: 12px;
+			cursor: pointer;
+			transition: 0.3s ease;
+
+			&.active {
+				filter: unset;
+			}
+
+			&__name {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				font-size: 23px;
+				letter-spacing: 2.3px;
+				font-family: "Dongle", sans-serif;
+				text-transform: uppercase;
+				color: #fff;
+				user-select: none;
+			}
+		}
+	}
+}
