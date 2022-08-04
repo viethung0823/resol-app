@@ -1,0 +1,143 @@
+html {
+	font-size: 100%;
+	font-family: "Rubik", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+img,
+video,
+iframe {
+	user-select: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+button {
+	display: grid;
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+ion-icon {
+	pointer-events: none;
+}
+
+input {
+	cursor: pointer;
+}
+
+input[type="range"] {
+	-webkit-appearance: none;
+	height: 4px;
+	width: 90px;
+	border-radius: 10px;
+	background-color: var(--clr-volume--full);
+	transition: 0.3s ease;
+	margin: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	position: relative;
+	z-index: 100000;
+	border-radius: 50%;
+	background-color: var(--clr-volume--load);
+	transition: 0.3s ease;
+	height: 12px;
+	width: 12px;
+}
+
+:root {
+	--topLayer-padding: 20px;
+	--controller-pos: 16px;
+	--clr-random: rgb(0, 0, 255);
+	--bg-transparent: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjc1IiBzdGl0Y2hUaWxlcz0ic3RpdGNoIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxwYXRoIGZpbHRlcj0idXJsKCNhKSIgb3BhY2l0eT0iLjA1IiBkPSJNMCAwaDMwMHYzMDBIMHoiLz48L3N2Zz4=);
+	--clr-song: rgba(0, 0, 0, 1);
+	--clr-artis: rgba(0, 0, 0, 0.8);
+	--clr-toggle: rgba(255, 255, 255, 0.7);
+	--clr-active: #fa586a;
+	--clr-playBackground: #fa586a;
+	--clr-volume--full: #fff;
+	--clr-volume--load: #333;
+	--clr-background: rgba(255, 255, 255, 0.8);
+	--clr-background-strong: rgba(255, 255, 255, 0.65);
+	--clr-dropshadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+	--clr-primary: #fff;
+}
+
+:root.darkMode {
+	--clr-song: rgba(255, 255, 255, 1);
+	--clr-artis: rgba(255, 255, 255, 0.5);
+	--clr-toggle: rgb(0 0 0 / 85%);
+	--clr-playBackground: #fff;
+	--clr-volume--full: #333;
+	--clr-volume--load: #fff;
+	--clr-background: rgba(0, 0, 0, 0.65);
+	--clr-background-strong: rgba(0, 0, 0, 0.85);
+	--clr-dropshadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+	--clr-primary: #000;
+}
+
+.lightModeSmallIcon {
+	filter: invert(19%) sepia(0%) saturate(0%) hue-rotate(319deg) brightness(95%) contrast(93%);
+}
+
+.darkmode {
+	filter: invert(100%) sepia(96%) saturate(21%) hue-rotate(241deg) brightness(104%) contrast(100%);
+}
+
+.activeBtn {
+	filter: invert(33%) sepia(12%) saturate(2850%) hue-rotate(304deg) brightness(101%) contrast(89%);
+}
+
+.hide {
+	display: none !important;
+}
+
+@keyframes openWindows {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
