@@ -1,13 +1,18 @@
 import ReactPlayer from "react-player";
 import styles from "./index.module.scss";
+import {useAppSelector} from "app/hook";
 
 const VideoPlayer = () => {
+	const videoURL = useAppSelector((state) => state.videoPlayer.videoURL);
+	const isEnableVideoSound = useAppSelector((state) => state.videoPlayer.isEnableVideoSound);
+	const videoVolume = useAppSelector((state) => state.videoPlayer.videoVolume);
+
 	return (
 		<ReactPlayer
 			className={styles.VideoPlayer}
-			url={"https://www.youtube.com/watch?v=jfKfPfyJRdk"}
-			// volume={videoVolume}
-			// muted={videoMuted}
+			url={videoURL}
+			volume={videoVolume}
+			muted={isEnableVideoSound}
 			playing
 			loop
 			config={{
