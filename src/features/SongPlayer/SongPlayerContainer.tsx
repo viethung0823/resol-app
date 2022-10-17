@@ -6,9 +6,8 @@ import { toggleSongLoop, togglePlayingSong, toggleSongSound } from './slice';
 
 function SongPlayerContainer() {
 	const dispatch = useAppDispatch();
-	const songVolume = useAppSelector((state) => state.songPlayer.songVolume);
-	const isSongPlaying = useAppSelector((state) => state.songPlayer.isSongPlaying);
-	const playIcon = isSongPlaying ? './assets/btn/play.svg' : './assets/btn/pause.svg';
+	const { songVolume, isSongPlaying } = useAppSelector((state) => state.songPlayerSlice);
+	const playIcon = isSongPlaying ? './assets/btn/pause.svg' : './assets/btn/play.svg';
 	const [volumeIcon, setVolumeIcon] = useState('./assets/btn/volume-medium.svg');
 
 	const mockSong = {

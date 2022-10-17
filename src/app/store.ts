@@ -1,11 +1,13 @@
-import {configureStore} from "@reduxjs/toolkit";
-import {songPlayerSlice, videoPlayerSlice} from "./slice";
+import { configureStore } from '@reduxjs/toolkit';
+import { songPlayerSlice, videoPlayerSlice } from './slice';
+
+const rootReducer = {
+	videoPlayerSlice,
+	songPlayerSlice,
+};
 
 export const store = configureStore({
-	reducer: {
-		videoPlayer: videoPlayerSlice,
-		songPlayer: songPlayerSlice,
-	},
+	reducer: rootReducer,
 });
 
 export type AppDispatch = typeof store.dispatch;

@@ -1,33 +1,32 @@
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface VideoPlayerState {
 	videoURL: string;
-	isEnableVideoSound: boolean;
+	isVideoMuted: boolean;
 	videoVolume: number;
 }
 
 const initialState: VideoPlayerState = {
-	videoURL: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-	isEnableVideoSound: false,
+	videoURL: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
+	isVideoMuted: false,
 	videoVolume: 0.5,
 };
 
 const videoPlayerSlice = createSlice({
-	name: "videoPlayer",
+	name: 'videoPlayerSlice',
 	initialState: initialState,
 	reducers: {
 		changeVideoURL(state: VideoPlayerState, action: PayloadAction<string>) {
-			console.log(action.type);
 			state.videoURL = action.payload;
 		},
 		changeVideoVolume(state: VideoPlayerState, action: PayloadAction<number>) {
 			state.videoVolume = action.payload;
 		},
 		toggleVideoSound(state: VideoPlayerState) {
-			state.isEnableVideoSound = !state.isEnableVideoSound;
+			state.isVideoMuted = !state.isVideoMuted;
 		},
 	},
 });
 
-export const {changeVideoURL} = videoPlayerSlice.actions;
+export const { changeVideoURL, changeVideoVolume, toggleVideoSound } = videoPlayerSlice.actions;
 export default videoPlayerSlice.reducer;

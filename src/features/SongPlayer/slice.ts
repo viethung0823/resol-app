@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface SongPlayerState {
 	songURL: string;
-	isEnableSongSound: boolean;
+	isSongMuted: boolean;
 	songVolume: number;
 	isSongPlaying: boolean;
 	isSongLoop: boolean;
@@ -10,14 +10,14 @@ interface SongPlayerState {
 
 const initialState: SongPlayerState = {
 	songURL: 'https://www.youtube.com/watch?v=jfKfPfyJRdk',
-	isEnableSongSound: false,
+	isSongMuted: true,
 	songVolume: 0.5,
 	isSongPlaying: false,
 	isSongLoop: false,
 };
 
 const songPlayerSlice = createSlice({
-	name: 'songPlayer',
+	name: 'songPlayerSlice',
 	initialState: initialState,
 	reducers: {
 		changeSongURL(state: SongPlayerState, action: PayloadAction<string>) {
@@ -27,7 +27,7 @@ const songPlayerSlice = createSlice({
 			state.songVolume = action.payload;
 		},
 		toggleSongSound(state: SongPlayerState) {
-			state.isEnableSongSound = !state.isEnableSongSound;
+			state.isSongMuted = !state.isSongMuted;
 		},
 		togglePlayingSong(state: SongPlayerState) {
 			state.isSongPlaying = !state.isSongPlaying;

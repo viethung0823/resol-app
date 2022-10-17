@@ -1,21 +1,17 @@
-import ReactPlayer from "react-player";
-import {useAppSelector} from "app/hook";
+import ReactPlayer from 'react-player';
+import { useAppSelector } from 'app/hook';
 
 const SongPlayer = () => {
-	const songURL = useAppSelector((state) => state.songPlayer.songURL);
-	const songVolume = useAppSelector((state) => state.songPlayer.songVolume);
-	const isEnableSongSound = useAppSelector((state) => state.songPlayer.isEnableSongSound);
-	const isSongPlaying = useAppSelector((state) => state.songPlayer.isSongPlaying);
-	const isSongLoop = useAppSelector((state) => state.songPlayer.isSongLoop);
+	const { isSongMuted, isSongLoop, isSongPlaying, songURL, songVolume } = useAppSelector((state) => state.songPlayerSlice);
 
 	return (
 		<ReactPlayer
-			style={{display: "none"}}
+			style={{ display: 'none' }}
 			url={songURL}
 			volume={songVolume}
 			playing={isSongPlaying}
 			loop={isSongLoop}
-			muted={isEnableSongSound}
+			muted={isSongMuted}
 			config={{
 				file: {
 					attributes: {
