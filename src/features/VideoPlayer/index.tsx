@@ -21,11 +21,20 @@ const VideoPlayer = () => {
 					},
 				},
 				youtube: {
-					playerVars: { showinfo: 0, autoplay: 1, controls: 0, rel: 0, hd: 1, vq: 'hd720', modestbranding: 1, iv_load_policy: 3 },
+					playerVars: {
+						showinfo: 0,
+						autoplay: 1,
+						controls: 0,
+						rel: 0,
+						hd: 1,
+						vq: 'hd720',
+						modestbranding: 1,
+						iv_load_policy: 3,
+					},
 				},
 			}}
 			style={{
-				background: `url("./assests/btn/loading.gif") #000 center no-repeat`,
+				background: 'url("./assests/btn/loading.gif") #000 center no-repeat',
 			}}
 		/>
 	);

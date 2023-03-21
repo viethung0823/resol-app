@@ -1,13 +1,13 @@
-import tag from "classnames";
-import styles from "./index.module.scss";
-import {VscClose, VscRemove} from "utils/icon";
+import tag from 'classnames';
+import styles from './index.module.scss';
+import { VscClose, VscRemove } from 'utils/icon';
 
 export interface IWindowsButton {
 	handleClickClose: () => void;
 	handleClickMinimize: () => void;
 }
 
-const WindowsButton = ({handleClickClose, handleClickMinimize}: IWindowsButton) => {
+const WindowsButton = ({ handleClickClose, handleClickMinimize }: IWindowsButton) => {
 	return (
 		<div className={tag(styles.WB)}>
 			<button className={tag(styles.WB__close)} onClick={handleClickClose}>

@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player';
 import { useAppSelector } from 'app/hook';
+import React from 'react';
 
 const SongPlayer = () => {
 	const { isSongMuted, isSongLoop, isSongPlaying, songURL, songVolume } = useAppSelector((state) => state.songPlayerSlice);

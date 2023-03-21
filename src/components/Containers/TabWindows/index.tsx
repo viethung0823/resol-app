@@ -1,15 +1,15 @@
-import tag from "classnames";
-import styles from "./index.module.scss";
-import {WindowsButton} from "components";
-import {IWindowsButton} from "utils/types";
-import {ReactNode} from "react";
+import tag from 'classnames';
+import styles from './index.module.scss';
+import { WindowsButton } from 'components';
+import { IWindowsButton } from 'utils/types';
+import { ReactNode } from 'react';
 
 export interface ITabWindows extends IWindowsButton {
 	nameWindows: string;
 	bodyWindows: ReactNode;
 }
 
-function TabWindows({nameWindows, bodyWindows, handleClickClose, handleClickMinimize}: ITabWindows) {
+function TabWindows({ nameWindows, bodyWindows, handleClickClose, handleClickMinimize }: ITabWindows) {
 	return (
 		<div className={tag(styles.TabWindows)}>
 			<div className={tag(styles.TabWindows__sidebar)}>

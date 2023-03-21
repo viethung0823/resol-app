@@ -1,1 +1,1 @@
-export {VscClose, VscRemove} from "react-icons/vsc";
+export { VscClose, VscRemove } from 'react-icons/vsc';

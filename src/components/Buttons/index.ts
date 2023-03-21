@@ -1,1 +1,1 @@
-export {default as WindowsButton} from "./WindowsButton";
+export { default as WindowsButton } from './WindowsButton';

@@ -6,11 +6,7 @@ import { changeVideoURL } from './slice';
 function SongPlayerContainer() {
 	const dispatch = useAppDispatch();
 
-	return (
-		<Fragment>
-			<VideoPlayer />
-		</Fragment>
-	);
+	return <Fragment>{/* <VideoPlayer /> */}</Fragment>;
 }
 
 export default SongPlayerContainer;

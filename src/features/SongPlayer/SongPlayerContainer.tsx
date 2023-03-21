@@ -3,6 +3,7 @@ import SongPlayer from './index';
 import { SongController, SongPlaylist } from './components';
 import { useAppDispatch, useAppSelector } from 'app/hook';
 import { toggleSongLoop, togglePlayingSong, toggleSongSound } from './slice';
+import React from 'react';
 
 function SongPlayerContainer() {
 	const dispatch = useAppDispatch();

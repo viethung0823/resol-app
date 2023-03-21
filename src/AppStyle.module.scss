@@ -1,6 +1,14 @@
 .App {
-	position: relative;
-	z-index: 1000;
+	// box-model
 	width: 100vw;
 	height: 100vh;
+
+	// position
+	position: relative;
+	z-index: 1000;
+
+	// font css
+	font-size: 12px;
+
+	font-weight: 100;
 }

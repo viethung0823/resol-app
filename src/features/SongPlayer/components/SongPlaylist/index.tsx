@@ -1,7 +1,7 @@
-import tag from "classnames";
-import styles from "./index.module.scss";
-import {} from "components";
-import {} from "utils/types";
+import tag from 'classnames';
+import styles from './index.module.scss';
+import {} from 'components';
+import {} from 'utils/types';
 
 export interface ISongPlaylist {}
 

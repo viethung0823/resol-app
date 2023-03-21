@@ -1,0 +1,49 @@
+html {
+	font-size: 100%;
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+img,
+video,
+iframe {
+	user-select: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}

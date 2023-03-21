@@ -1,2 +1,2 @@
-export {default as DefaultWindows} from "./DefaultWindows";
-export {default as TabWindows} from "./TabWindows";
+export { default as DefaultWindows } from './DefaultWindows';
+export { default as TabWindows } from './TabWindows';
